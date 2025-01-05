@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f5f5f5; /* Slightly lighter background */
+    color: #222; /* Darker text color */
+    line-height: 1.6;
+    color: #f5f5f5;
+  }
+  .logo{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+.col{
+  text-decoration: none;
+  color: #ffffff;
+}
+.col:hover{
+  color: #dbd1d1;
+}
+.logo a{
+  background-color: black;
+  color: aliceblue;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: none;
+}
+  .container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    display: flex;
+  }
+  
+  header,
+  footer {
+    background: #444; /* Darker header/footer */
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  /* Main Content and Sidebar */
+  .main-content {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  /* Intro Section */
+  #elden-ring-intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .intro-content {
+    flex: 1;
+    margin-left: 20px; /* Switched margin to left side */
+  }
+  
+  .intro-image {
+    flex-shrink: 0;
+  }
+  
+  .intro-image img {
+    max-width: 900px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 100vh; 
+    background-color: #ddd; /* Slightly darker sidebar */
+    border-right: 1px solid #bbb; /* Darker border */
+    padding: 20px;
+    overflow-y: auto; 
+  }
+  
+  /* Review Section */
+  #elden-ring-review {
+    margin-bottom: 20px;
+  }
+  
+  #elden-ring-review h3 {
+    margin-top: 2em;
+  }
+  
+  #elden-ring-review ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  /* Screenshots Section */
+  .screenshot-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .screenshot-gallery img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Guides Section */
+  #elden-ring-guides {
+    margin-bottom: 20px;
+  }
+  
+  #elden-ring-guides article {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1em;
+  }
+  
+  #elden-ring-guides h4 {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      position: relative;
+      width: 100%;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 20px;
+    }
+  
+    #elden-ring-intro {
+      flex-direction: column;
+    }
+  
+    .intro-image {
+      margin-top: 20px;
+    }
+  
+    .screenshot-gallery img {
+      max-width: 100%;
+    }
+  }

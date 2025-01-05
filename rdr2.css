@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background:"l.jpg";
+  color: #fcfafa;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+  display: flex;
+}
+.logo a{
+  background-color: black;
+  color: aliceblue;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: none;
+}
+.logo{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
+header,
+footer {
+  background: #212020;
+  color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Main Content and Sidebar */
+.main-content {
+  flex:2;
+  /* Main content takes up more space */
+  margin-right: 20px;
+}
+/* Intro Section */
+#rdr2-intro {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.intro-content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.intro-image {
+  flex-shrink: 0;
+}
+
+.intro-image img {
+  max-width:900px;
+  height: auto;
+  border-radius: 8px;
+  /* Add rounded corners to images */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Add a subtle shadow */
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 100vh; /* Full height of the viewport */
+  background-color: #dbd1d1;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+/* Review Section */
+#rdr2-review {
+  margin-bottom: 20px;
+}
+
+#rdr2-review h3 {
+  margin-top: 2em;
+}
+
+#rdr2-review ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+/* Screenshots Section */
+.screenshot-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.screenshot-gallery img {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  /* Add rounded corners to images */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Add a subtle shadow */
+}
+
+/* Guides Section */
+#rdr2-guides {
+  margin-bottom: 20px;
+}
+
+#rdr2-guides article {
+  margin-bottom: 2em;
+  border-bottom: 1px solid #ddd;
+  /* Add a subtle separator */
+  padding-bottom: 1em;
+}
+
+#rdr2-guides h4 {
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    /* Stack sidebar on top of main content */
+  }
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  #rdr2-intro {
+    flex-direction: column;
+    /* Stack intro content vertically */
+  }
+
+  .intro-image {
+    margin-top: 20px;
+  }
+
+  .screenshot-gallery img {
+    max-width: 100%;
+    /* Make screenshots full width on smaller screens */
+  }
+}
+.col{
+  text-decoration: none;
+  color: #ffffff;
+}
+.col:hover{
+  color: #dbd1d1;
+}

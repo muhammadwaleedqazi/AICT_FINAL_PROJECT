@@ -1,0 +1,139 @@
+.logo{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+.navbar{
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #f9f7f7;
+        color: #080808;
+      }
+    }
+    .lis-r{
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+          }
+          
+          li {
+            float: right;}
+            li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover {
+            background-color: #f9f3f3;
+            color: #080808;
+          }
+          li button{
+            
+            display: block;
+            color: #faf8f8;
+            text-align: center;
+          }
+          li button:hover{
+         
+                background-color: #cfcbcb;
+              
+
+          }
+        }
+        .Icontainer{
+          padding: 25px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            height: 360px;
+            width: 25%;
+            position: relative;
+            background-color: #b4adad;
+            color: rgb(8, 8, 8);
+            overflow: hidden;
+        }
+        .Icontainer:hover{
+          background-color: #676464;
+        }
+  .cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+  .ww
+  {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: rgb(9, 9, 9);
+     padding-top: 15px; 
+     font-size: large;
+  }
+  .butt {
+    background-color: #151515;
+    border: none;
+    color: rgb(158, 156, 156);
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    justify-content: center;
+    border-radius: 5%;
+  }
+  .butt:hover{
+    background-color: #b4adad;
+    color: #151515;
+  }
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  footer {
+    background: #212020;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+.ara{
+  background-color: #151515;
+            color:rgb(158, 156, 156);
+            text-decoration: none;
+}
+.ara:hover{
+  background-color: #b4adad;
+    color: #151515;
+}
+    
+    

@@ -1,0 +1,52 @@
+.sign{
+    line-height: 20px;
+}
+.box{
+    margin:4px;
+    width: 65%;
+    border: none;
+    padding: 13px;
+    outline: none;
+    border-radius: 12px;
+}
+#submit{
+    color: black;
+}
+#submit:hover{
+background:transparent;
+color:aliceblue
+}
+#submit a:hover{
+    background:transparent;
+color:aliceblue
+}
+.logo{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+.logo a{
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: none;
+}
+#submit{
+    padding: 20px;
+    margin: 5px;
+}
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
